@@ -4,7 +4,7 @@ let notFound = document.querySelector('.not__found');
 let defBox = document.querySelector('.def');
 let audioBox = document.querySelector('.audio');
 let loading = document.querySelector('.loading');
-let apikey = 'f5505e6d-4c09-4c96-98de-c742ff55b003';
+let apiKey = '<YOUR-API-KEY>';
 //when i click on search button the input data must go to server
 searchBtn.addEventListener('click', function(e){
     e.preventDefault();
